@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserInfoCountriesXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <UserInfoCountriesLists>
+    <UserInfoCountries>
+      <UserInfoCountriesID>1</UserInfoCountriesID>
+      <UserInfoCountriesName>Brazil</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>2</UserInfoCountriesID>
+      <UserInfoCountriesName>Bulgaria</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>3</UserInfoCountriesID>
+      <UserInfoCountriesName>Dominican Republic</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>4</UserInfoCountriesID>
+      <UserInfoCountriesName>Ecuador</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>5</UserInfoCountriesID>
+      <UserInfoCountriesName>Germany</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>6</UserInfoCountriesID>
+      <UserInfoCountriesName>Greece</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>7</UserInfoCountriesID>
+      <UserInfoCountriesName>Guatemala</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>8</UserInfoCountriesID>
+      <UserInfoCountriesName>Hong Kong</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>9</UserInfoCountriesID>
+      <UserInfoCountriesName>Hungary</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>10</UserInfoCountriesID>
+      <UserInfoCountriesName>India</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>11</UserInfoCountriesID>
+      <UserInfoCountriesName>Indonesia</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>12</UserInfoCountriesID>
+      <UserInfoCountriesName>Italy</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>13</UserInfoCountriesID>
+      <UserInfoCountriesName>Malawi</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>14</UserInfoCountriesID>
+      <UserInfoCountriesName>Mexico</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>15</UserInfoCountriesID>
+      <UserInfoCountriesName>Mozambique</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>16</UserInfoCountriesID>
+      <UserInfoCountriesName>Netherlands</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>17</UserInfoCountriesID>
+      <UserInfoCountriesName>North Macedonia</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>18</UserInfoCountriesID>
+      <UserInfoCountriesName>Paraguay</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>19</UserInfoCountriesID>
+      <UserInfoCountriesName>People's Republic of China</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>20</UserInfoCountriesID>
+      <UserInfoCountriesName>Philippines</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>21</UserInfoCountriesID>
+      <UserInfoCountriesName>Poland</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>22</UserInfoCountriesID>
+      <UserInfoCountriesName>Russia</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>23</UserInfoCountriesID>
+      <UserInfoCountriesName>Singapore</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>24</UserInfoCountriesID>
+      <UserInfoCountriesName>South Africa</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>25</UserInfoCountriesID>
+      <UserInfoCountriesName>Spain</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>26</UserInfoCountriesID>
+      <UserInfoCountriesName>Switzerland</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>27</UserInfoCountriesID>
+      <UserInfoCountriesName>Türkiye</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCountriesName>United States</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+    <UserInfoCountries>
+      <UserInfoCountriesID>29</UserInfoCountriesID>
+      <UserInfoCountriesName>Zimbabwe</UserInfoCountriesName>
+      <UserInfoCountriesActiveYesNo>1</UserInfoCountriesActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoCountries>
+  </UserInfoCountriesLists>
+</UserInfoCountriesXml>

@@ -1,0 +1,63 @@
+
+    //******************************************
+    // Sql and Xml Tips and Tricky
+    //******************************************
+
+    //******************************************
+    // Aspx.NET and Controller
+    //******************************************
+
+    bl = new Admin{0}BL(new Admin{0}XmlRepository());
+
+    OR
+
+    bl = new Admin{0}BL(new Admin{0}Repository());
+
+    ...
+
+    bl = new {0}BL(new {0}XmlRepository());
+
+    OR
+
+    bl = new {0}BL(new {0}Repository());
+
+    //******************************************
+    // LoadUserInfoStringSqlXmlRepository
+    //******************************************
+
+    public enum LoadUserInfoSqlXmlEnum
+    {
+    Sql,
+    Xml
+    }
+    ...
+    LoadUserInfoSqlXmlEnum loadUserInfoSqlXmlEnum = LoadUserInfoSqlXmlEnum.Xml;
+
+    OR
+
+    LoadUserInfoSqlXmlEnum loadUserInfoSqlXmlEnum = LoadUserInfoSqlXmlEnum.Sql;
+
+    //******************************************
+    // Log4ExceptionConnDb Repository
+    //******************************************
+
+    public enum LogErrorDatabaseEnum
+    {
+    All,
+    Sql,
+    Xml
+    }
+    ...
+    LogErrorDatabaseEnum logErrorDatabaseEnum = LogErrorDatabaseEnum.All;
+
+    OR
+
+    LogErrorDatabaseEnum logErrorDatabaseEnum = LogErrorDatabaseEnum.Sql;
+
+    OR
+
+    LogErrorDatabaseEnum logErrorDatabaseEnum = LogErrorDatabaseEnum.Xml;
+
+
+
+  

@@ -1,0 +1,75 @@
+﻿------------------------
+Windows 11 Pro UserName
+------------------------
+Device name: EarlWilkersonJr
+UserName: EARLWILKERSONJR\earlw
+
+--------
+UrlBase
+--------
+private readonly string messageUrlBase = "https://localhost:44319/";
+
+------
+Gmail
+------
+Web.config
+-----------
+    <add key="SmtpClientPort" value="587" />
+    <add key="SmtpClientHost" value="smtp.gmail.com" />
+    <add key="SmtpClientUserName" value="earl.wilkerson.jr@gmail.com" />
+    <add key="SmtpClientPassword" value="bema ivay ezpx nahe" />
+
+
+Sql Stored Proc
+-----------------
+DECLARE @SERVERNAME as nvarchar(20) = 'EARLWILKERSONJR',
+@Recipients as nvarchar(200) = 'earl.wilkerson.jr@gmail.com'
+
+
+Sql Database Mail Configuration Wizard
+---------------------------------------
+profile name: LogErrorMail
+
+Account name: Gmail
+
+Outgoing mail server (SMTP)
+E-mail address: earl.wilkerson.jr@gmail.com
+Display name: Earl L. Wilkerson Jr
+Server name: smtp.gmail.com, Port name: 587
+
+SMTP Authentication
+Basic authentication
+User name: earl.wilkerson.jr@gmail.com
+Password: bema ivay ezpx nahe
+
+------
+Outlook
+------
+Web.config
+-----------
+SmtpClientPort: "587"
+SmtpClientHost: "smtp-mail.outlook.com"
+SmtpClientUserName: "earl.wilkerson.jr@outlook.com"
+SmtpClientPassword: "xzdeefymsifomrjj"
+
+Sql Stored Proc
+-----------------
+DECLARE @SERVERNAME as nvarchar(20) = 'EARLWILKERSONJR',
+@Recipients as nvarchar(200) = 'earl.wilkerson.jr@outlook.com'
+
+
+Sql Database Mail Configuration Wizard
+---------------------------------------
+profile name: LogErrorMail2
+
+Account name: Outlook
+
+Outgoing mail server (SMTP)
+E-mail address: earl.wilkerson.jr@outlook.com
+Display name: Earl L. Wilkerson Jr
+Server name: smtp-mail.outlook.com, Port name: 587
+
+SMTP Authentication
+Basic authentication
+User name: earl.wilkerson.jr@outlook.com
+Password: xzdeefymsifomrjj

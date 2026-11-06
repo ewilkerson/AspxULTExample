@@ -1,0 +1,76 @@
+
+    Create a solution and add a project
+    Now add your first project to the solution. Start with an empty project, and add the items you need.
+
+    1) Solution: AspxULTExample
+    2) Project2: AspxULTExample.Models - System.Web and System.ComponentModel.DataAnnotations
+    - Folder:
+    * Interface
+
+    Add a second+ project
+    Solutions commonly contain more than one project, and these projects often reference each other.
+    Some projects in a solution might be class libraries, some might be executable applications, and
+    some might be unit test projects or websites.
+
+    1) Project3: AspxULTExample.BL
+    - Reference Manager:
+    * AspxULTExample.Models
+    2) Project4: AspxULTExample.Repository - System.Web and System.Configuration
+    - Nuget Tools:
+    * Dapper
+    * MailKit
+    * MimeKit
+    - Reference Manager:
+    * AspxULTExample.Models
+    3) Project1: AspxULTExample.Web
+    - Nuget Tools:
+    * jQuery.UI.Combined by jQuery UI Team
+    * jquery.datatables
+    * Telerik UI for ASP.NET AJAX
+    - Reference Manager:
+    * AspxULTExample.Models
+    * AspxULTExample.BL
+    * AspxULTExample.Repository
+
+
+    Next a project from AspxULTExample.Web
+    - Misc:
+    * Global.asax
+    * Web.config:
+    -- SmtpClientEmail.txt
+    -- TwoStepAuthentication.pdf
+    * Bundle.config
+    - Folder:
+    * AdminInfos:
+    -- AdminInfos/AdminInfo.aspx
+    * HomeInfos:
+    -- HomeInfos/HomeInfo.aspx
+    * ErrorText
+    * Svg/google-drive.svg
+    * Xml:
+    -- UserInfoAccessLevelXml.xml
+    -- UserInfoCompanyXml.xml
+    -- UserInfoCountriesXml.xml
+    -- UserInfoStatusXml.xml
+    -- UserInfoUserInfoAccessLevelXrefXml.xml
+    -- UserInfoUserInfoCompanyXrefXml.xml
+    -- UserInfoXml.xml
+    * Template:
+    -- ContactUsEmailTemplate.html
+    -- EmailTemplate.html
+    -- LogErrorEmailTemplate.html
+    * Content/bootstrap-icons.min.css
+    * Content/Site.css
+    * Content/fonts/bootstrap-icons.woff
+    * Content/fonts/bootstrap-icons.woff2
+    * Content/Signatures
+    - Aspx:
+    * Site.Master
+    * Default.aspx
+    * Error.aspx
+    * ErrorBadRequest.aspx
+    * ErrorForbidden.aspx
+    * ErrorNotFound.aspx
+
+
+  

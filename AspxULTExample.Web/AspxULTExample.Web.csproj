@@ -1,0 +1,2064 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{47E337E8-150A-4F18-B14E-440FA45FBBA7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AspxULTExample.Web</RootNamespace>
+    <AssemblyName>AspxULTExample.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44354</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\lib\RCAJAX\2024.4.1114.462\Telerik.Web.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\lib\RCAJAX\2024.4.1114.462\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\lib\RCAJAX\2024.4.1114.462\Telerik.Web.UI.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="AccessDenied.aspx" />
+    <Content Include="AdminInfos\AdminInfo.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate2.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetail2s.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetails.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionEditDelete.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptThirty.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptTen.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView2.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveCreate.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveCreate2.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveDetail2s.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveDetails.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveEditDelete.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveGridView.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveGridView2.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\ExampleFileUpload2s\ExampleFileUpload2GridView.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogCreate.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogCreate2.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogDetail2s.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogDetails.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogEditDelete.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogGridView.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogGridView2.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleCreate.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleCreate2.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleDetail2s.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleDetails.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleEditDelete.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleGridView.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleGridView2.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\Examples\ExampleTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\LoadUserInfos\LoadUserInfoCreate2.aspx" />
+    <Content Include="AdminInfos\LoadUserInfos\LoadUserInfoDetail2s.aspx" />
+    <Content Include="AdminInfos\LoadUserInfos\LoadUserInfoEditDelete.aspx" />
+    <Content Include="AdminInfos\LoadUserInfos\LoadUserInfoGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoCreate.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoDetails.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoGridView.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetail2s.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView2.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid.aspx" />
+    <Content Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleCreate2.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleDetail2s.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleEditDelete.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleGridView2.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx" />
+    <Content Include="AdminInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx" />
+    <Content Include="AdminInfos\_LoadUserInfoAdminAspxEditDeleteCsRegionTemplate.txt" />
+    <Content Include="App_Data\RadCaptcha\0.wav" />
+    <Content Include="App_Data\RadCaptcha\1.wav" />
+    <Content Include="App_Data\RadCaptcha\2.wav" />
+    <Content Include="App_Data\RadCaptcha\3.wav" />
+    <Content Include="App_Data\RadCaptcha\4.wav" />
+    <Content Include="App_Data\RadCaptcha\5.wav" />
+    <Content Include="App_Data\RadCaptcha\6.wav" />
+    <Content Include="App_Data\RadCaptcha\7.wav" />
+    <Content Include="App_Data\RadCaptcha\8.wav" />
+    <Content Include="App_Data\RadCaptcha\9.wav" />
+    <Content Include="App_Data\RadCaptcha\A.wav" />
+    <Content Include="App_Data\RadCaptcha\B.wav" />
+    <Content Include="App_Data\RadCaptcha\C.wav" />
+    <Content Include="App_Data\RadCaptcha\D.wav" />
+    <Content Include="App_Data\RadCaptcha\E.wav" />
+    <Content Include="App_Data\RadCaptcha\F.wav" />
+    <Content Include="App_Data\RadCaptcha\G.wav" />
+    <Content Include="App_Data\RadCaptcha\H.wav" />
+    <Content Include="App_Data\RadCaptcha\I.wav" />
+    <Content Include="App_Data\RadCaptcha\J.wav" />
+    <Content Include="App_Data\RadCaptcha\K.wav" />
+    <Content Include="App_Data\RadCaptcha\L.wav" />
+    <Content Include="App_Data\RadCaptcha\M.wav" />
+    <Content Include="App_Data\RadCaptcha\N.wav" />
+    <Content Include="App_Data\RadCaptcha\O.wav" />
+    <Content Include="App_Data\RadCaptcha\P.wav" />
+    <Content Include="App_Data\RadCaptcha\Q.wav" />
+    <Content Include="App_Data\RadCaptcha\R.wav" />
+    <Content Include="App_Data\RadCaptcha\S.wav" />
+    <Content Include="App_Data\RadCaptcha\T.wav" />
+    <Content Include="App_Data\RadCaptcha\U.wav" />
+    <Content Include="App_Data\RadCaptcha\V.wav" />
+    <Content Include="App_Data\RadCaptcha\W.wav" />
+    <Content Include="App_Data\RadCaptcha\X.wav" />
+    <Content Include="App_Data\RadCaptcha\Y.wav" />
+    <Content Include="App_Data\RadCaptcha\Z.wav" />
+    <Content Include="Contact.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-icons.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\autoFill.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.css" />
+    <Content Include="Content\DataTables\css\autoFill.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.css" />
+    <Content Include="Content\DataTables\css\autoFill.foundation.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.css" />
+    <Content Include="Content\DataTables\css\autoFill.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\autoFill.semanticui.css" />
+    <Content Include="Content\DataTables\css\autoFill.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\buttons.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.css" />
+    <Content Include="Content\DataTables\css\buttons.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.css" />
+    <Content Include="Content\DataTables\css\buttons.foundation.min.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.css" />
+    <Content Include="Content\DataTables\css\buttons.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\buttons.semanticui.css" />
+    <Content Include="Content\DataTables\css\buttons.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\colReorder.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\colReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\colReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\colReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\colReorder.semanticui.css" />
+    <Content Include="Content\DataTables\css\colReorder.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.css" />
+    <Content Include="Content\DataTables\css\dataTables.material.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.css" />
+    <Content Include="Content\DataTables\css\dataTables.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.css" />
+    <Content Include="Content\DataTables\css\dataTables.uikit.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.semanticui.css" />
+    <Content Include="Content\DataTables\css\fixedColumns.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.foundation.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.semanticui.css" />
+    <Content Include="Content\DataTables\css\fixedHeader.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\keyTable.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.css" />
+    <Content Include="Content\DataTables\css\keyTable.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.css" />
+    <Content Include="Content\DataTables\css\keyTable.foundation.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.css" />
+    <Content Include="Content\DataTables\css\keyTable.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\keyTable.semanticui.css" />
+    <Content Include="Content\DataTables\css\keyTable.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\responsive.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.css" />
+    <Content Include="Content\DataTables\css\responsive.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.css" />
+    <Content Include="Content\DataTables\css\responsive.foundation.min.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.css" />
+    <Content Include="Content\DataTables\css\responsive.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\responsive.semanticui.css" />
+    <Content Include="Content\DataTables\css\responsive.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.bootstrap.css" />
+    <Content Include="Content\DataTables\css\rowGroup.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\rowGroup.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.dataTables.css" />
+    <Content Include="Content\DataTables\css\rowGroup.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.foundation.css" />
+    <Content Include="Content\DataTables\css\rowGroup.foundation.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.jqueryui.css" />
+    <Content Include="Content\DataTables\css\rowGroup.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\rowGroup.semanticui.css" />
+    <Content Include="Content\DataTables\css\rowGroup.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\rowReorder.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.css" />
+    <Content Include="Content\DataTables\css\rowReorder.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.css" />
+    <Content Include="Content\DataTables\css\rowReorder.foundation.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.css" />
+    <Content Include="Content\DataTables\css\rowReorder.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\rowReorder.semanticui.css" />
+    <Content Include="Content\DataTables\css\rowReorder.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\scroller.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.css" />
+    <Content Include="Content\DataTables\css\scroller.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.css" />
+    <Content Include="Content\DataTables\css\scroller.foundation.min.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.css" />
+    <Content Include="Content\DataTables\css\scroller.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\scroller.semanticui.css" />
+    <Content Include="Content\DataTables\css\scroller.semanticui.min.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap4.css" />
+    <Content Include="Content\DataTables\css\select.bootstrap4.min.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.css" />
+    <Content Include="Content\DataTables\css\select.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\select.foundation.css" />
+    <Content Include="Content\DataTables\css\select.foundation.min.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.css" />
+    <Content Include="Content\DataTables\css\select.jqueryui.min.css" />
+    <Content Include="Content\DataTables\css\select.semanticui.css" />
+    <Content Include="Content\DataTables\css\select.semanticui.min.css" />
+    <Content Include="Content\DataTables\images\details_close.png" />
+    <Content Include="Content\DataTables\images\details_open.png" />
+    <Content Include="Content\DataTables\images\sort_asc.png" />
+    <Content Include="Content\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Content\DataTables\images\sort_both.png" />
+    <Content Include="Content\DataTables\images\sort_desc.png" />
+    <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Content\DataTables\swf\flashExport.swf" />
+    <Content Include="Content\images\1252-w-moore-st-richmond-va-building-photo.jpg" />
+    <Content Include="Content\images\3025-glenan-dr-richmond-va-building-photo.jpg" />
+    <Content Include="Content\images\copy10400CampusWaySouthLargoMD20774.jpg" />
+    <Content Include="Content\images\ellison-museum-district-richmond.jpg" />
+    <Content Include="Content\images\image1.jpg" />
+    <Content Include="Content\images\image2.jpg" />
+    <Content Include="Content\images\Kitchen_View.jpg" />
+    <Content Include="Content\images\luxury_apartments_richmond_13.jpeg" />
+    <Content Include="Content\images\luxury_apartments_richmond_14.jpeg" />
+    <Content Include="Content\images\luxury_apartments_richmond_33.jpeg" />
+    <Content Include="Content\images\luxury_apartments_richmond_va_9.jpeg" />
+    <Content Include="Content\images\Main_Living.jpg" />
+    <Content Include="Content\images\10400CampusWaySouthLargoMD20774.jpg" />
+    <Content Include="Content\images\the-icon-richmond-va-building-photo.jpg" />
+    <Content Include="Content\Signatures\1.jpg" />
+    <Content Include="Content\Signatures\2.jpg" />
+    <Content Include="Content\Signatures\3.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\StudyPracQuestion\2.jpg" />
+    <Content Include="Content\StudyPracQuestion\4.jpg" />
+    <Content Include="Content\StudyPracQuestion\6.jpg" />
+    <Content Include="Content\StudyPracQuestion\7.jpg" />
+    <Content Include="Content\StudyPracQuestion\8.jpg" />
+    <Content Include="Content\StudyPracQuestion\9.jpg" />
+    <Content Include="Content\StudyPracQuestion\3.jpg" />
+    <Content Include="Content\StudyPracQuestion\1.jpg" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="DesktopManagementSuite.aspx" />
+    <Content Include="DesktopManagementSuite2.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="ErrorBadRequest.aspx" />
+    <Content Include="ErrorForbidden.aspx" />
+    <Content Include="ErrorNotFound.aspx" />
+    <Content Include="ErrorText\AspxULTExample.txt" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\DataTables\css\semanticui.scss" />
+    <Content Include="Content\DataTables\css\mixins.scss" />
+    <Content Include="Content\DataTables\css\common.scss" />
+    <Content Include="HomeInfos\HomeInfo.aspx" />
+    <Content Include="HomeInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleCreate2.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleDetail2s.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleEditDelete.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleGridView2.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx" />
+    <Content Include="HomeInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="MobileApplicationSuite.aspx" />
+    <Content Include="MobileApplicationSuite2.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\autoFill.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.foundation.js" />
+    <Content Include="Scripts\DataTables\autoFill.foundation.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.jqueryui.js" />
+    <Content Include="Scripts\DataTables\autoFill.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\autoFill.semanticui.js" />
+    <Content Include="Scripts\DataTables\autoFill.semanticui.min.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\buttons.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\buttons.colVis.js" />
+    <Content Include="Scripts\DataTables\buttons.colVis.min.js" />
+    <Content Include="Scripts\DataTables\buttons.flash.js" />
+    <Content Include="Scripts\DataTables\buttons.flash.min.js" />
+    <Content Include="Scripts\DataTables\buttons.foundation.js" />
+    <Content Include="Scripts\DataTables\buttons.foundation.min.js" />
+    <Content Include="Scripts\DataTables\buttons.html5.js" />
+    <Content Include="Scripts\DataTables\buttons.html5.min.js" />
+    <Content Include="Scripts\DataTables\buttons.jqueryui.js" />
+    <Content Include="Scripts\DataTables\buttons.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\buttons.print.js" />
+    <Content Include="Scripts\DataTables\buttons.print.min.js" />
+    <Content Include="Scripts\DataTables\buttons.semanticui.js" />
+    <Content Include="Scripts\DataTables\buttons.semanticui.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.buttons.js" />
+    <Content Include="Scripts\DataTables\dataTables.buttons.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.foundation.js" />
+    <Content Include="Scripts\DataTables\dataTables.foundation.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.jqueryui.js" />
+    <Content Include="Scripts\DataTables\dataTables.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.material.js" />
+    <Content Include="Scripts\DataTables\dataTables.material.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowGroup.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowGroup.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowReorder.js" />
+    <Content Include="Scripts\DataTables\dataTables.rowReorder.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.select.js" />
+    <Content Include="Scripts\DataTables\dataTables.select.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.semanticui.js" />
+    <Content Include="Scripts\DataTables\dataTables.semanticui.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.uikit.js" />
+    <Content Include="Scripts\DataTables\dataTables.uikit.min.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap4.js" />
+    <Content Include="Scripts\DataTables\responsive.bootstrap4.min.js" />
+    <Content Include="Scripts\DataTables\responsive.foundation.js" />
+    <Content Include="Scripts\DataTables\responsive.foundation.min.js" />
+    <Content Include="Scripts\DataTables\responsive.jqueryui.js" />
+    <Content Include="Scripts\DataTables\responsive.jqueryui.min.js" />
+    <Content Include="Scripts\DataTables\responsive.semanticui.js" />
+    <Content Include="Scripts\DataTables\responsive.semanticui.min.js" />
+    <Content Include="App_Data\RadSpell\de-DE.tdf" />
+    <Content Include="App_Data\RadSpell\en-US.tdf" />
+    <Content Include="App_Data\RadSpell\fr-FR.tdf" />
+    <Content Include="Svg\google-meet.svg" />
+    <Content Include="Template\ContactUsEmailTemplate.html" />
+    <Content Include="Template\EmailTemplate.html" />
+    <Content Include="Template\LogErrorEmailTemplate.html" />
+    <Content Include="WebApplicationPortal.aspx" />
+    <Content Include="WebApplicationPortal2.aspx" />
+    <Content Include="Xml\DmvStudyPracQOptXml.xml" />
+    <Content Include="Xml\DmvStudyPracQuestionXml.xml" />
+    <Content Include="Xml\DmvStudyPractXml.xml" />
+    <Content Include="Xml\ExampleApproveXml.xml" />
+    <Content Include="Xml\ExampleFileUpload2Xml.xml" />
+    <Content Include="Xml\ExampleLogXml.xml" />
+    <Content Include="Xml\ExampleXml.xml" />
+    <Content Include="Xml\UserInfoAccessLevelXml.xml" />
+    <Content Include="Xml\UserInfoCompanyXml.xml" />
+    <Content Include="Xml\UserInfoCountriesXml.xml" />
+    <Content Include="Xml\UserInfoStatusXml.xml" />
+    <Content Include="Xml\UserInfoUserInfoAccessLevelXrefXml.xml" />
+    <Content Include="Xml\UserInfoUserInfoCompanyXrefXml.xml" />
+    <Content Include="Xml\UserInfoXml.xml" />
+    <Content Include="Content\fonts\bootstrap-icons.woff" />
+    <Content Include="Content\fonts\bootstrap-icons.woff2" />
+    <Content Include="_AspxULTExampleAspxWeb.txt" />
+    <Content Include="_DropDownListRegionTemplate.txt" />
+    <Content Include="_ProjectConvertToWebApp.txt" />
+    <Content Include="_SmtpClientEmail.txt" />
+    <Content Include="_SqlXmlTipsAndTricky.txt" />
+    <Content Include="_ToolsNuGet.txt" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.7.1.js" />
+    <Content Include="Scripts\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.js" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.js" />
+    <Content Include="Scripts\jquery-ui-1-14.1.js" />
+    <Content Include="Scripts\jquery-ui-1.14.1.js" />
+    <Content Include="Scripts\jquery-ui-1.14.1.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Site.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+    <Content Include="_TwoStepAuthentication.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\AdminInfo.aspx.cs">
+      <DependentUpon>AdminInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\AdminInfo.aspx.designer.cs">
+      <DependentUpon>AdminInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate2.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionCreate2.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetail2s.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetail2s.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetails.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionDetails.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionEditDelete.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionEditDelete.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptThirty.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionRepeaterQOptThirty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptThirty.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionRepeaterQOptThirty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptTen.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionRepeaterQOptTen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionRepeaterQOptTen.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionRepeaterQOptTen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView2.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionGridView2.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadCreate.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadDetails.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid2.aspx.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\DmvStudyPracQuestions\DmvStudyPracQuestionTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>DmvStudyPracQuestionTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveCreate.aspx.cs">
+      <DependentUpon>ExampleApproveCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveCreate.aspx.designer.cs">
+      <DependentUpon>ExampleApproveCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveCreate2.aspx.cs">
+      <DependentUpon>ExampleApproveCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveCreate2.aspx.designer.cs">
+      <DependentUpon>ExampleApproveCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveDetail2s.aspx.cs">
+      <DependentUpon>ExampleApproveDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveDetail2s.aspx.designer.cs">
+      <DependentUpon>ExampleApproveDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveDetails.aspx.cs">
+      <DependentUpon>ExampleApproveDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveDetails.aspx.designer.cs">
+      <DependentUpon>ExampleApproveDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveEditDelete.aspx.cs">
+      <DependentUpon>ExampleApproveEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleApproveEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveGridView.aspx.cs">
+      <DependentUpon>ExampleApproveGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveGridView.aspx.designer.cs">
+      <DependentUpon>ExampleApproveGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveGridView2.aspx.cs">
+      <DependentUpon>ExampleApproveGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveGridView2.aspx.designer.cs">
+      <DependentUpon>ExampleApproveGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadCreate.aspx.cs">
+      <DependentUpon>ExampleApproveTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>ExampleApproveTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadDetails.aspx.cs">
+      <DependentUpon>ExampleApproveTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>ExampleApproveTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>ExampleApproveTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleApproveTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid.aspx.cs">
+      <DependentUpon>ExampleApproveTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>ExampleApproveTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid2.aspx.cs">
+      <DependentUpon>ExampleApproveTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleApproves\ExampleApproveTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>ExampleApproveTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleFileUpload2s\ExampleFileUpload2GridView.aspx.cs">
+      <DependentUpon>ExampleFileUpload2GridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleFileUpload2s\ExampleFileUpload2GridView.aspx.designer.cs">
+      <DependentUpon>ExampleFileUpload2GridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogCreate.aspx.cs">
+      <DependentUpon>ExampleLogCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogCreate.aspx.designer.cs">
+      <DependentUpon>ExampleLogCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogCreate2.aspx.cs">
+      <DependentUpon>ExampleLogCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogCreate2.aspx.designer.cs">
+      <DependentUpon>ExampleLogCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogDetail2s.aspx.cs">
+      <DependentUpon>ExampleLogDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogDetail2s.aspx.designer.cs">
+      <DependentUpon>ExampleLogDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogDetails.aspx.cs">
+      <DependentUpon>ExampleLogDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogDetails.aspx.designer.cs">
+      <DependentUpon>ExampleLogDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogEditDelete.aspx.cs">
+      <DependentUpon>ExampleLogEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleLogEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogGridView.aspx.cs">
+      <DependentUpon>ExampleLogGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogGridView.aspx.designer.cs">
+      <DependentUpon>ExampleLogGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogGridView2.aspx.cs">
+      <DependentUpon>ExampleLogGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogGridView2.aspx.designer.cs">
+      <DependentUpon>ExampleLogGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadCreate.aspx.cs">
+      <DependentUpon>ExampleLogTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>ExampleLogTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadDetails.aspx.cs">
+      <DependentUpon>ExampleLogTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>ExampleLogTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>ExampleLogTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleLogTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid.aspx.cs">
+      <DependentUpon>ExampleLogTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>ExampleLogTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid2.aspx.cs">
+      <DependentUpon>ExampleLogTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ExampleLogs\ExampleLogTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>ExampleLogTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleCreate.aspx.cs">
+      <DependentUpon>ExampleCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleCreate.aspx.designer.cs">
+      <DependentUpon>ExampleCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleCreate2.aspx.cs">
+      <DependentUpon>ExampleCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleCreate2.aspx.designer.cs">
+      <DependentUpon>ExampleCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleDetail2s.aspx.cs">
+      <DependentUpon>ExampleDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleDetail2s.aspx.designer.cs">
+      <DependentUpon>ExampleDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleDetails.aspx.cs">
+      <DependentUpon>ExampleDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleDetails.aspx.designer.cs">
+      <DependentUpon>ExampleDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleEditDelete.aspx.cs">
+      <DependentUpon>ExampleEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleGridView.aspx.cs">
+      <DependentUpon>ExampleGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleGridView.aspx.designer.cs">
+      <DependentUpon>ExampleGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleGridView2.aspx.cs">
+      <DependentUpon>ExampleGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleGridView2.aspx.designer.cs">
+      <DependentUpon>ExampleGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadCreate.aspx.cs">
+      <DependentUpon>ExampleTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>ExampleTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadDetails.aspx.cs">
+      <DependentUpon>ExampleTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>ExampleTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>ExampleTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>ExampleTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadGrid.aspx.cs">
+      <DependentUpon>ExampleTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>ExampleTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadGrid2.aspx.cs">
+      <DependentUpon>ExampleTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\Examples\ExampleTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>ExampleTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoCreate2.aspx.cs">
+      <DependentUpon>LoadUserInfoCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoCreate2.aspx.designer.cs">
+      <DependentUpon>LoadUserInfoCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoDetail2s.aspx.cs">
+      <DependentUpon>LoadUserInfoDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoDetail2s.aspx.designer.cs">
+      <DependentUpon>LoadUserInfoDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoEditDelete.aspx.cs">
+      <DependentUpon>LoadUserInfoEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoEditDelete.aspx.designer.cs">
+      <DependentUpon>LoadUserInfoEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoGridView2.aspx.cs">
+      <DependentUpon>LoadUserInfoGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\LoadUserInfos\LoadUserInfoGridView2.aspx.designer.cs">
+      <DependentUpon>LoadUserInfoGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate2.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetail2s.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetails.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelEditDelete.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView2.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoAccessLevels\UserInfoAccessLevelTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoAccessLevelTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate.aspx.cs">
+      <DependentUpon>UserInfoCompanyCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate2.aspx.cs">
+      <DependentUpon>UserInfoCompanyCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetail2s.aspx.cs">
+      <DependentUpon>UserInfoCompanyDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetails.aspx.cs">
+      <DependentUpon>UserInfoCompanyDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyEditDelete.aspx.cs">
+      <DependentUpon>UserInfoCompanyEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView.aspx.cs">
+      <DependentUpon>UserInfoCompanyGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView2.aspx.cs">
+      <DependentUpon>UserInfoCompanyGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCompanys\UserInfoCompanyTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoCompanyTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate.aspx.cs">
+      <DependentUpon>UserInfoCountriesCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate2.aspx.cs">
+      <DependentUpon>UserInfoCountriesCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetail2s.aspx.cs">
+      <DependentUpon>UserInfoCountriesDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetails.aspx.cs">
+      <DependentUpon>UserInfoCountriesDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesEditDelete.aspx.cs">
+      <DependentUpon>UserInfoCountriesEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView.aspx.cs">
+      <DependentUpon>UserInfoCountriesGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView2.aspx.cs">
+      <DependentUpon>UserInfoCountriesGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoCountriess\UserInfoCountriesTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoCountriesTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate.aspx.cs">
+      <DependentUpon>UserInfoStatusCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate2.aspx.cs">
+      <DependentUpon>UserInfoStatusCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetail2s.aspx.cs">
+      <DependentUpon>UserInfoStatusDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetails.aspx.cs">
+      <DependentUpon>UserInfoStatusDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusEditDelete.aspx.cs">
+      <DependentUpon>UserInfoStatusEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView.aspx.cs">
+      <DependentUpon>UserInfoStatusGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView2.aspx.cs">
+      <DependentUpon>UserInfoStatusGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoStatusTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoStatusTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoStatusTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoStatusTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoStatusTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoStatuss\UserInfoStatusTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoStatusTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoCreate.aspx.cs">
+      <DependentUpon>UserInfoCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoCreate2.aspx.cs">
+      <DependentUpon>UserInfoCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoDetail2s.aspx.cs">
+      <DependentUpon>UserInfoDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoDetails.aspx.cs">
+      <DependentUpon>UserInfoDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoEditDelete.aspx.cs">
+      <DependentUpon>UserInfoEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoGridView.aspx.cs">
+      <DependentUpon>UserInfoGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoGridView2.aspx.cs">
+      <DependentUpon>UserInfoGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfos\UserInfoTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetail2s.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetails.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefEditDelete.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoAccessLevelXrefs\UserInfoUserInfoAccessLevelXrefTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoAccessLevelXrefTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefCreate2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetail2s.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetail2s.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetails.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefEditDelete.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefGridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefGridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefGridView2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadCreate.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadDetails.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadGrid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid2.aspx.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\UserInfoUserInfoCompanyXrefs\UserInfoUserInfoCompanyXrefTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>UserInfoUserInfoCompanyXrefTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx.cs">
+      <DependentUpon>ViewExampleFileUpload2GridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx.designer.cs">
+      <DependentUpon>ViewExampleFileUpload2GridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleCreate2.aspx.cs">
+      <DependentUpon>ViewExampleCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleCreate2.aspx.designer.cs">
+      <DependentUpon>ViewExampleCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleDetail2s.aspx.cs">
+      <DependentUpon>ViewExampleDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleDetail2s.aspx.designer.cs">
+      <DependentUpon>ViewExampleDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleEditDelete.aspx.cs">
+      <DependentUpon>ViewExampleEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleEditDelete.aspx.designer.cs">
+      <DependentUpon>ViewExampleEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleGridView2.aspx.cs">
+      <DependentUpon>ViewExampleGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleGridView2.aspx.designer.cs">
+      <DependentUpon>ViewExampleGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopManagementSuite.aspx.cs">
+      <DependentUpon>DesktopManagementSuite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopManagementSuite.aspx.designer.cs">
+      <DependentUpon>DesktopManagementSuite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopManagementSuite2.aspx.cs">
+      <DependentUpon>DesktopManagementSuite2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DesktopManagementSuite2.aspx.designer.cs">
+      <DependentUpon>DesktopManagementSuite2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorBadRequest.aspx.cs">
+      <DependentUpon>ErrorBadRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorBadRequest.aspx.designer.cs">
+      <DependentUpon>ErrorBadRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorForbidden.aspx.cs">
+      <DependentUpon>ErrorForbidden.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorForbidden.aspx.designer.cs">
+      <DependentUpon>ErrorForbidden.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorNotFound.aspx.cs">
+      <DependentUpon>ErrorNotFound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorNotFound.aspx.designer.cs">
+      <DependentUpon>ErrorNotFound.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\HomeInfo.aspx.cs">
+      <DependentUpon>HomeInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\HomeInfo.aspx.designer.cs">
+      <DependentUpon>HomeInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx.cs">
+      <DependentUpon>ViewExampleFileUpload2GridView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExampleFileUpload2s\ViewExampleFileUpload2GridView.aspx.designer.cs">
+      <DependentUpon>ViewExampleFileUpload2GridView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleCreate2.aspx.cs">
+      <DependentUpon>ViewExampleCreate2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleCreate2.aspx.designer.cs">
+      <DependentUpon>ViewExampleCreate2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleDetail2s.aspx.cs">
+      <DependentUpon>ViewExampleDetail2s.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleDetail2s.aspx.designer.cs">
+      <DependentUpon>ViewExampleDetail2s.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleEditDelete.aspx.cs">
+      <DependentUpon>ViewExampleEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleEditDelete.aspx.designer.cs">
+      <DependentUpon>ViewExampleEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleGridView2.aspx.cs">
+      <DependentUpon>ViewExampleGridView2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleGridView2.aspx.designer.cs">
+      <DependentUpon>ViewExampleGridView2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadCreate.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadDetails.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadEditDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadEditDelete.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadEditDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx.cs">
+      <DependentUpon>ViewExampleTelerikRadGrid2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeInfos\ViewExamples\ViewExampleTelerikRadGrid2.aspx.designer.cs">
+      <DependentUpon>ViewExampleTelerikRadGrid2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileApplicationSuite.aspx.cs">
+      <DependentUpon>MobileApplicationSuite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileApplicationSuite.aspx.designer.cs">
+      <DependentUpon>MobileApplicationSuite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MobileApplicationSuite2.aspx.cs">
+      <DependentUpon>MobileApplicationSuite2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MobileApplicationSuite2.aspx.designer.cs">
+      <DependentUpon>MobileApplicationSuite2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site2.Master.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site2.Master.designer.cs">
+      <DependentUpon>Site2.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebApplicationPortal.aspx.cs">
+      <DependentUpon>WebApplicationPortal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApplicationPortal.aspx.designer.cs">
+      <DependentUpon>WebApplicationPortal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebApplicationPortal2.aspx.cs">
+      <DependentUpon>WebApplicationPortal2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebApplicationPortal2.aspx.designer.cs">
+      <DependentUpon>WebApplicationPortal2.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminInfos\DmvStudyPracQOpts\" />
+    <Folder Include="AdminInfos\DmvStudyPracts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.7.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.7.1.min.map" />
+    <Content Include="Site2.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AspxULTExample.BL\AspxULTExample.BL.csproj">
+      <Project>{4248a6c8-7240-44a2-b5f7-04f525b3f918}</Project>
+      <Name>AspxULTExample.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspxULTExample.Models\AspxULTExample.Models.csproj">
+      <Project>{e2e2d1dc-8bd3-47cb-ab37-f6c4ce715a31}</Project>
+      <Name>AspxULTExample.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AspxULTExample.Repository\AspxULTExample.Repository.csproj">
+      <Project>{5ff34e68-1728-4cd8-a061-c7811fcf8d74}</Project>
+      <Name>AspxULTExample.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61953</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44354/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

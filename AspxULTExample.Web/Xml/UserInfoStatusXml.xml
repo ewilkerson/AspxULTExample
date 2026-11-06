@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserInfoStatusXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <UserInfoStatusLists>
+    <UserInfoStatus>
+      <UserInfoStatusID>0</UserInfoStatusID>
+      <UserInfoStatusName>NotCreated</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>10</UserInfoStatusID>
+      <UserInfoStatusName>Created</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>20</UserInfoStatusID>
+      <UserInfoStatusName>Signed</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>30</UserInfoStatusID>
+      <UserInfoStatusName>Approved</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>40</UserInfoStatusID>
+      <UserInfoStatusName>Complete</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>50</UserInfoStatusID>
+      <UserInfoStatusName>Unsigned</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>60</UserInfoStatusID>
+      <UserInfoStatusName>Rejected</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>70</UserInfoStatusID>
+      <UserInfoStatusName>Revoked</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+    <UserInfoStatus>
+      <UserInfoStatusID>80</UserInfoStatusID>
+      <UserInfoStatusName>Deleted</UserInfoStatusName>
+      <UserInfoStatusActiveYesNo>1</UserInfoStatusActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoStatus>
+  </UserInfoStatusLists>
+</UserInfoStatusXml>

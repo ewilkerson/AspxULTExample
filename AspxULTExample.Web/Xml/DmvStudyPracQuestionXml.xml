@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DmvStudyPracQuestionXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  >
+  <DmvStudyPracQuestionLists>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>1</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>A left turn at a red traffic signal is allowed when:</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>You may turn left at a red light if you are on a one-way street and turning left onto another one-way street while the traffic signal displays a red light.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>2</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>Yellow X or Yellow Diagonal Downward Arrow: These signals mean that you should move out of the lane as soon as safely possible.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Lane-use signals indicate lanes where you can and cannot drive during different hours of the day. A yellow X signal means that you should move out of the lane as soon as safely possible.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>3</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>If a police officer directs you to go through an intersection with a red light, you should:</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Obey all signs and signals unless directed by a police officer; always follow the officer's direction.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>4</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>Never drive in a lane marked with a red X signal.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Never drive in a lane marked with a red X signal.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>5</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>Traffic signals apply to pedestrians.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Traffic signals apply to drivers, motorcycle riders, bicyclists, moped riders and pedestrians.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>0</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>6</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>Lane use signals indicate where you can and cannot drive during different hours of the day.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Lane use signals indicate lanes where you can and cannot drive during different hours of the day.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>7</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>A flashing red light means:</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>At a flashing red light, come to a complete stop and yield to oncoming vehicles and pedestrians. You may go when the way is clear. At a railroad crossing, you must come to a complete stop even if you don't see a train.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>8</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>A red arrow indicates that you may turn after you come to a complete stop and look both ways for traffic and pedestrians.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>A red arrow means you must stop if you intend to move in the direction of the arrow. Virginia law prohibits right and left turns at red arrow lights.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>9</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>At a red light, come to a complete stop:</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>At a red light, come to a complete stop at the stop line or, if there is no stop line, before entering the intersection or before reaching the crosswalk. Remain stopped as long as the signal is red, unless turns are allowed.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>1</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+    <DmvStudyPracQuestion>
+      <DmvStudyPracQuestionID>10</DmvStudyPracQuestionID>
+      <DmvStudyPracID>1</DmvStudyPracID>
+      <DmvStudyPracQuestionText>Traffic signals do not apply to bicyclists.</DmvStudyPracQuestionText>
+      <DmvStudyPracQuestionAnswerText>Traffic signals apply to drivers, motorcycle riders, bicyclists, moped riders and pedestrians.</DmvStudyPracQuestionAnswerText>
+      <DmvStudyPracQuestionPicsYesNo>0</DmvStudyPracQuestionPicsYesNo>
+      <DmvStudyPracQuestionActiveYesNo>1</DmvStudyPracQuestionActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQuestion>
+  </DmvStudyPracQuestionLists>
+</DmvStudyPracQuestionXml>

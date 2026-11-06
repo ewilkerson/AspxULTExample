@@ -1,0 +1,196 @@
+<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="Site.master.cs" Inherits="AspxULTExample.Web.SiteMaster" %>
+
+<%@ Import Namespace="AspxULTExample.Models" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Aspx ULT Example</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+        <%
+            string sessionName = "AspxULTExample_";
+            bool sessionBool = HttpContext.Current.Session != null &&
+            (int)HttpContext.Current.Session[sessionName + "UserInfoAccessLevelID"] != 0 &&
+            (bool)HttpContext.Current.Session[sessionName + "UserInfoActiveYesNo"];
+            bool sessionAdminBool = sessionBool && ((int)HttpContext.Current.Session[sessionName + "UserInfoAccessLevelID"] == (int)EnumUserInfoAccessLevelID.SuperAccessLevelSr || (int)HttpContext.Current.Session[sessionName + "UserInfoAccessLevelID"] == (int)EnumUserInfoAccessLevelID.SuperAccessLevelJr);
+            string fullName = sessionBool ? Session[sessionName + "UserInfoFullName"].ToString() : HttpContext.Current.User.Identity.Name;
+        %>
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-info">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/">
+                    <img src="/Svg/google-meet.svg" alt="Aspx ULT Example Logo" width="28" height="28" class="d-inline-block align-text-top">&nbsp;Aspx ULT Example</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a class="nav-link text-dark" runat="server" href="~/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" runat="server" href="~/HomeInfos/HomeInfo.aspx">Home&nbsp;Info</a></li>
+                        <%
+                            if (sessionAdminBool)
+                            {
+                        %>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" runat="server" href="~/AdminInfos/AdminInfo.aspx">Admin&nbsp;Info</a>
+                        </li>
+                        <%
+                            }
+                        %>
+                        <li class="nav-item"><a class="nav-link text-dark" runat="server" href="~/ContactUs.aspx">Contact Us</a></li>
+                    </ul>
+                    <%
+                        if (sessionBool)
+                        {
+                    %>
+                    <p class="navbar-text navbar-right"><a class="nav-link badge bg-light text-dark" id="opener">Hello, <%:fullName%>!</a></p>
+                    <%
+                    }
+                    else
+                    {
+                    %>
+                    <p class="navbar-text navbar-right">
+                        Hello,
+    <asp:LoginName runat="server" />
+                        !
+                    </p>
+                    <%
+                        }
+                    %>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - Aspx ULT Example</p>
+            </footer>
+        </div>
+        <asp:PlaceHolder runat="server">
+            <%: Scripts.Render("~/Scripts/jquery-3.7.1.min.js") %>
+            <%: Scripts.Render("~/Scripts/bootstrap.min.js") %>
+            <%: Scripts.Render("~/Scripts/jquery-ui-1.14.1.min.js") %>
+            <%: Scripts.Render("~/Scripts/DataTables/jquery.dataTables.min.js") %>
+            <%: Scripts.Render("~/Scripts/DataTables/dataTables.jqueryui.min.js") %>
+        </asp:PlaceHolder>
+        <asp:ContentPlaceHolder ID="ScriptsContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <script>
+            $(function () {
+
+                $("#dialog").dialog({
+                    resizable: true,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                    autoOpen: false,
+                    buttons: {
+                        Ok: function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+
+                $("#dialog-userInfo").dialog({
+                    resizable: true,
+                    height: "auto",
+                    width: 400,
+                    modal: true,
+                    autoOpen: false,
+                    buttons: {
+                        Ok: function () {
+                            $(this).dialog("close");
+                        }
+                    }
+                });
+
+                $("#opener").on("click", function () {
+                    $("#dialog-userInfo").dialog("open");
+                });
+
+            });
+
+            function displayAlert(msg) {
+
+                $(function () {
+                    if (!(!msg || msg === undefined || msg.trim() === "" || (msg.trim()).length === 0)) {
+                        $("#dialog").html(msg);
+                        $("#dialog").dialog("open");
+                    }
+                });
+
+                return false;
+            }
+
+            function DeleteConfirm() {
+
+                if (confirm('Do you want to delete?')) {
+                    return true;
+                }
+
+                return false;
+            }
+
+
+        </script>
+        <div id="dialog" title="Aspx ULT Example">
+            <p></p>
+        </div>
+        <%
+            if (sessionBool)
+            {
+                string idName = Session[sessionName + "UserInfoID"].ToString();
+                string identityName = Session[sessionName + "UserInfoUserIdentityName"].ToString();
+                string userName = Session[sessionName + "UserInfoUserName"].ToString();
+                string emailAddress = Session[sessionName + "UserInfoEmailAddress"].ToString();
+                string jobTitle = Session[sessionName + "UserInfoJobTitle"].ToString();
+                string accessLevelName = Session[sessionName + "UserInfoAccessLevelName"].ToString();
+        %>
+        <div id="dialog-userInfo" title="User Info">
+            <p>ID: <b><%: idName  %></b></p>
+            <p>Identity Name: <b><%: identityName  %></b></p>
+            <p>User Name: <b><%: userName %></b></p>
+            <p>Full Name: <b><%: fullName %></b></p>
+            <p>Email Address: <b><%: emailAddress %></b></p>
+            <p>Job Title: <b><%: jobTitle %></b></p>
+            <p>Access Level Name: <b><%: accessLevelName %></b></p>
+        </div>
+        <%
+            }
+        %>
+    </form>
+</body>
+</html>

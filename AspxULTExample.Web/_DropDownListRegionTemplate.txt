@@ -1,0 +1,122 @@
+
+    //***************
+    //Aspx
+    //***************
+
+    <section class="row">
+    <div class="col-auto">
+    <asp:Label ID="Label{Model}Id" AssociatedControlID="DropDownList{Model}Id" CssClass="form-label" Text="{Model}Id:" runat="server"></asp:Label>
+    </div>
+    <div class="col-auto">
+    <asp:DropDownList ID="DropDownList{Model}Id" CssClass="form-select"
+    runat="server" DropDownAutoWidth="Enabled">
+    </asp:DropDownList>
+
+    </div>
+    </section>
+    <section class="row">
+    <br />
+    </section>
+
+    //BindUserInfo
+
+    I{Model}BL bl{Model} = new Admin{Model}BL(new Admin{Model}Repository());
+    IEnumerable<{Model}> {Model}Lists = bl{Model}.Get{Model}s();
+    DropDownList{Model}ID.DataSource = {Model}Lists;
+    DropDownList{Model}ID.DataValueField = "{Model}ID";
+    DropDownList{Model}ID.DataTextField = "{Model}Name";
+    DropDownList{Model}ID.DataBind();
+
+
+    //Create
+
+    //Page_Load
+
+    if (!IsPostBack){
+    BindUserInfo();
+    }
+
+    //Submit_Create
+    int {Model}ID;
+    bool success{Model}ID = int.TryParse(DropDownList{Model}ID.SelectedValue, out {Model}ID);
+    if (!success{Model}ID)
+    {
+    {Model}ID = 0;
+    }
+
+
+    //Edit
+
+    //Page_Load
+    DropDownList{Model}ID.SelectedValue = {Model}.{Model}ID.ToString();
+
+    //Submit_Edit
+
+    int {Model}ID;
+    bool success{Model}ID = int.TryParse(DropDownList{Model}ID.SelectedValue, out {Model}ID);
+    if (!success{Model}ID)
+    {
+    {Model}ID = 0;
+    }
+
+    //***************
+    //Mvc
+    //***************
+
+    //Models
+    public string {Model}IDString { get; set; }
+
+    //DropDownListFor
+
+    <section class="row">
+    <div class="col-auto">
+    @Html.HiddenFor(model => model.{Model}ID)
+    @Html.LabelFor(model => model.{Model}ID, htmlAttributes: new { @class = "form-label" }):
+    </div>
+    <div class="col-auto">
+    @Html.DropDownListFor(model => model.{Model}IDString, new SelectList((IEnumerable)ViewData["{Model}Lists"], "{Model}ID", "{Model}Name"), null, new { @class = "form-select" })
+    </div>
+    </section>
+    <section class="row">
+    <br />
+    </section>
+
+    //BindUserInfo
+
+    I{Model}BL bl{Model} = new Admin{Model}BL(new Admin{Model}Repository());
+    IEnumerable<{Model}> {Model}Lists = bl{Model}.Get{Model}s();
+    ViewData["{Model}Lists"] = {Model}Lists;
+
+    //[HttpGet]
+    //public ActionResult Create()
+    {Model}ID = 1,
+
+    //[HttpPost]
+    //public ActionResult Create()
+    int {Model}ID;
+    bool success{Model}ID = int.TryParse({Model}ViewModel.{Model}IDString, out {Model}ID);
+    if (!success{Model}ID)
+    {
+    {Model}ID = 0;
+    }
+    {Model}ViewModel.{Model}ID = {Model}ID;
+
+    //[HttpGet]
+    //public ActionResult Edit(int? id)
+    {Model}IDString = {Model}.{Model}ID.ToString()
+
+    //[HttpPost]
+    //public ActionResult Edit(int? id, string buttonForm, {Model}ViewModel {Model}ViewModel)
+
+    int {Model}ID;
+    bool success{Model}ID = int.TryParse({Model}ViewModel.{Model}IDString, out {Model}ID);
+    if (!success{Model}ID)
+    {
+    {Model}ID = 0;
+    }
+
+    {Model}ViewModel.{Model}ID = {Model}ID;
+
+
+    //
+  

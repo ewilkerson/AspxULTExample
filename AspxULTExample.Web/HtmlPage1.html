@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIMP Heuristic Evaluation Mockup</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .mockup-container {
+            position: relative;
+            /* Default GIMP screenshot aspect ratio */
+            width: 1200px;
+            height: 800px;
+            /* Replace the URL below with the path to your actual GIMP screenshot */
+            background-image: url('https://via.placeholder.com/1200x800/333333/555555?text=Replace+with+GIMP+Screenshot');
+            background-size: cover;
+            background-position: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid #444;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* Allows clicking through the SVG if needed */
+        }
+
+        /* SVG Text Styling */
+        text {
+            font-size: 14px;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px black, -1px -1px 3px black;
+        }
+
+        .blue-text {
+            fill: #4da6ff;
+        }
+
+        .red-text {
+            fill: #ff4d4d;
+        }
+
+        .green-text {
+            fill: #4dff4d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="mockup-container">
+        <!-- SVG Overlay for Annotations -->
+        <svg class="overlay" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+
+            <!-- ========================================== -->
+            <!-- BLUE: AREAS OF COMPLIANCE                  -->
+            <!-- ========================================== -->
+            <!-- Undo History (Top Right Dock) -->
+            <rect x="910" y="50" width="280" height="350" fill="none" stroke="#4da6ff" stroke-width="4" stroke-dasharray="8,4" rx="5" />
+            <text x="920" y="70" class="blue-text">Undo History (Rule 6)</text>
+
+            <!-- Modular Control (Dock Handles) -->
+            <circle cx="1170" cy="70" r="15" fill="none" stroke="#4da6ff" stroke-width="4" />
+            <text x="1000" y="100" class="blue-text">Modular Docks (Rule 7)</text>
+            <line x1="1155" y1="70" x2="1125" y2="95" stroke="#4da6ff" stroke-width="3" />
+
+            <!-- Dialog Closure (File Menu) -->
+            <rect x="10" y="5" width="45" height="25" fill="none" stroke="#4da6ff" stroke-width="3" rx="3" />
+            <text x="10" y="45" class="blue-text">Closure (Rule 4)</text>
+
+            <!-- ========================================== -->
+            <!-- RED: AREAS OF VIOLATION                    -->
+            <!-- ========================================== -->
+            <!-- Deep Menus (Filters) -->
+            <rect x="300" y="5" width="60" height="25" fill="none" stroke="#ff4d4d" stroke-width="3" rx="3" />
+            <text x="300" y="45" class="red-text">Deep Menus (Rule 8)</text>
+
+            <!-- Silent Failure (Canvas to Layers) -->
+            <circle cx="500" cy="400" r="40" fill="none" stroke="#ff4d4d" stroke-width="4" />
+            <text x="550" y="405" class="red-text">Silent Failure (Rule 3)</text>
+            <!-- Arrow connecting canvas to layers panel -->
+            <line x1="540" y1="400" x2="900" y2="550" stroke="#ff4d4d" stroke-width="3" marker-end="url(#red-arrow)" />
+            <circle cx="920" cy="550" r="15" fill="none" stroke="#ff4d4d" stroke-width="3" /> <!-- Hidden eye icon spot -->
+            <!-- Separated Tool Options (Toolbox to Options) -->
+            <circle cx="50" cy="200" r="40" fill="none" stroke="#ff4d4d" stroke-width="3" />
+            <circle cx="50" cy="600" r="40" fill="none" stroke="#ff4d4d" stroke-width="3" />
+            <line x1="50" y1="240" x2="50" y2="560" stroke="#ff4d4d" stroke-width="3" stroke-dasharray="6,6" marker-start="url(#red-arrow-reverse)" marker-end="url(#red-arrow)" />
+            <text x="100" y="400" class="red-text">Separated Context (Rule 8)</text>
+
+            <!-- ========================================== -->
+            <!-- GREEN: UI REDESIGN PROPOSALS               -->
+            <!-- ========================================== -->
+            <!-- Contextual Top Ribbon -->
+            <rect x="0" y="32" width="1200" height="40" fill="rgba(77, 255, 77, 0.2)" stroke="#4dff4d" stroke-width="3" />
+            <text x="500" y="58" class="green-text">Contextual Tool Ribbon Proposal</text>
+
+            <!-- Command Palette / Global Search -->
+            <rect x="950" y="5" width="200" height="22" fill="rgba(77, 255, 77, 0.2)" stroke="#4dff4d" stroke-width="3" rx="4" />
+            <text x="750" y="22" class="green-text">Global Search Palette Proposal -></text>
+
+            <!-- Contextual HUD Alert -->
+            <rect x="400" y="700" width="400" height="60" fill="rgba(77, 255, 77, 0.2)" stroke="#4dff4d" stroke-width="3" rx="8" />
+            <text x="420" y="735" class="green-text">HUD Toast: "Cannot paint: Layer hidden [Unhide]"</text>
+
+            <!-- ========================================== -->
+            <!-- SVG DEFINITIONS (Arrowheads)               -->
+            <!-- ========================================== -->
+            <defs>
+                <marker id="red-arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff4d4d" />
+                </marker>
+                <marker id="red-arrow-reverse" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                    <path d="M 0 5 L 10 0 L 10 10 z" fill="#ff4d4d" />
+                </marker>
+            </defs>
+        </svg>
+    </div>
+
+</body>
+</html>

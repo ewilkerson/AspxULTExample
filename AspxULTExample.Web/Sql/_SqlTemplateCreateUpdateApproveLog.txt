@@ -1,0 +1,133 @@
+
+    /* Create and Update */
+
+    //Table
+
+    [{Table}ID] [int] IDENTITY(1,1) NOT NULL,
+    ...
+
+    //Views
+    // ---------------------------------------------------
+    [{Table}UserInfoStatusID]	[int]	 NOT NULL,
+    [{Table}UserInfoCompanyID]	[int]	 NOT NULL,
+    // ---------------------------------------------------
+
+    ...
+
+    [{Table}ActiveYesNo]	[bit]	 NOT NULL,
+    [CreateUserName] [nvarchar](50) NULL,
+    [CreateFullName] [nvarchar](50) NULL,
+    [CreateDate] [datetime] NOT NULL,
+    [UpdateUserName] [nvarchar](50) NULL,
+    [UpdateFullName] [nvarchar](50) NULL,
+    [UpdateDate] [datetime] NOT NULL,
+    CONSTRAINT [PK_{Table}] PRIMARY KEY CLUSTERED
+    (
+    [{Table}ID] ASC
+    )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+    ) ON [PRIMARY]
+
+    GO
+
+    ALTER TABLE [dbo].[{Table}] ADD  CONSTRAINT [DF_{Table}_UpdateDate]  DEFAULT (getdate()) FOR [UpdateDate]
+    GO
+
+
+    //Sql Views
+    CREATE OR ALTER VIEW [dbo].[View????]
+    WITH SCHEMABINDING
+    AS
+
+    //Sql Views Indexes
+    CREATE UNIQUE CLUSTERED INDEX [ClusteredIndex-????] ON [dbo].[View????]
+    (
+    [???] ASC
+    )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, IGNORE_DUP_KEY = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+    GO
+
+    /* Approve and Log */
+
+    CREATE TABLE [dbo].[{0}Approve](
+    [{0}ApproveID] [int] IDENTITY(1,1) NOT NULL,
+    [{0}ID] [int] NOT NULL,
+    [UserInfoID] [int] NOT NULL,
+    [UserInfoJobTitle] [nvarchar](50) NOT NULL,
+    [CreateUserName] [nvarchar](50) NULL,
+    [CreateFullName] [nvarchar](50) NULL,
+    [CreateDate] [datetime] NOT NULL,
+    [UpdateUserName] [nvarchar](50) NULL,
+    [UpdateFullName] [nvarchar](50) NULL,
+    [UpdateDate] [datetime] NOT NULL,
+    CONSTRAINT [PK_{0}Approve] PRIMARY KEY CLUSTERED
+    (
+    [{0}ApproveID] ASC
+    )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+    ) ON [PRIMARY]
+    GO
+
+    ALTER TABLE [dbo].[{0}Approve] ADD  CONSTRAINT [DF_{0}Approve_UpdateDate]  DEFAULT (getdate()) FOR [UpdateDate]
+    GO
+
+    CREATE TABLE [dbo].[{0}Log](
+    [{0}LogID] [int] IDENTITY(1,1) NOT NULL,
+    [{0}ID] [int] NOT NULL,
+    [LogMessage] [varchar](2000) NOT NULL,
+    [CreateUserName] [nvarchar](50) NULL,
+    [CreateFullName] [nvarchar](50) NOT NULL,
+    [CreateDate] [datetime] NOT NULL,
+    [UpdateUserName] [nvarchar](50) NULL,
+    [UpdateFullName] [nvarchar](50) NULL,
+    [UpdateDate] [datetime] NOT NULL,
+    CONSTRAINT [PK_{0}Log] PRIMARY KEY CLUSTERED
+    (
+    [{0}LogID] ASC
+    )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+    ) ON [PRIMARY]
+    GO
+
+    ALTER TABLE [dbo].[{0}Log] ADD  CONSTRAINT [DF_{0}Log_UpdateDate]  DEFAULT (getdate()) FOR [UpdateDate]
+    GO
+
+    //FOR XML PATH in SQL SERVER
+    SELECT '<?xml version="1.0" encoding="UTF-8"?>' +
+    CAST((SELECT
+    (SELECT *
+    FROM {Use Table} FOR XML PATH ('{Table}'), TYPE) AS '{Table}Lists'
+    FOR XML PATH (''), ROOT('{Table}Xml'), ELEMENTS XSINIL) AS VARCHAR(MAX)) AS XmlData;
+
+    Example:
+    <?xml version="1.0" encoding="utf-8"?>
+    <{Table}Xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <{Table}Lists>
+    <{Table}>
+    ...
+    </{Table}>
+    </{Table}Lists>
+    </{Table}s>
+
+    or
+
+    SELECT *
+    FROM {Use Table}
+    FOR XML PATH ('{Table}');
+
+    Example:
+    <{Table}>
+    ...
+    </{Table}>
+
+    //SQL WHILE loop
+
+    DECLARE @Counter INT
+    SET @Counter=1
+    WHILE ( @Counter <= 10)
+    BEGIN
+
+    UPDATE [dbo].[Game]
+    SET [Genre_id] = @Counter
+    WHERE [Genre_id] = @Counter
+
+    SET @Counter  = @Counter  + 1
+    END
+
+  

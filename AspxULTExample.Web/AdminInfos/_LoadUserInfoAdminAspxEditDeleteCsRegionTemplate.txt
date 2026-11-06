@@ -1,0 +1,160 @@
+
+    //***************
+    //Sql ORDER BY -  [dbo].[usp_AdminGetUserInfoAccessLevels]
+    //***************
+
+    ORDER BY [UserInfoAccessLevelNum] ASC
+
+    //***************
+    //Repository
+    //***************
+    loadUserInfo.UserInfoAccessLevelName = reader["UserInfoAccessLevelName"].ToString();
+
+    //***************
+    //Repository Xml
+    //***************
+    userInfoAccessLevelLists.Sort((u1, u2) => u2.UserInfoAccessLevelID.CompareTo(u1.UserInfoAccessLevelID));
+
+
+    //***************
+    //Details
+    //***************
+    <section class="row">
+    <div class="col-auto">
+    <asp:Label ID="LabelDisplayNameForUserInfoAccessLevelName" CssClass="form-label" Text="User Info Access Level Name:" runat="server"></asp:Label>
+    </div>
+    <div class="col-auto">
+    <asp:Label ID="LabelDisplayForUserInfoAccessLevelName" CssClass="form-label" Font-Bold="True" runat="server"></asp:Label>
+    </div>
+    </section>
+    <section class="row">
+    <br />
+    </section>
+
+    //Page_Load
+    LabelDisplayForUserInfoAccessLevelName.Text = loadUserInfo.UserInfoAccessLevelName.ToString();
+
+    //***************
+    //GridView2
+    //***************
+    <asp:BoundField DataField="UserInfoAccessLevelName" HeaderText="User Info Access Level Name" InsertVisible="False"
+    ReadOnly="True" SortExpression="UserInfoAccessLevelName" />
+
+
+    //***************
+    //Aspx
+    //***************
+
+    <section class="row">
+    <div class="col-auto">
+    <asp:Label ID="LabelUserInfoAccessLevelID" AssociatedControlID="DropDownListUserInfoAccessLevelID" CssClass="form-label" Text="User Info Access Level ID:" runat="server"></asp:Label>
+    </div>
+    <div class="col-auto">
+    <asp:DropDownList ID="DropDownListUserInfoAccessLevelID" CssClass="form-select"
+    runat="server" DropDownAutoWidth="Enabled">
+    </asp:DropDownList>
+
+    </div>
+    </section>
+    <section class="row">
+    <br />
+    </section>
+
+    //BindUserInfo
+
+    private void BindUserInfo()
+    {
+    try
+    {
+    IUserInfoAccessLevelBL blUserInfoAccessLevel = new AdminUserInfoAccessLevelBL(new AdminUserInfoAccessLevelXmlRepository());
+    IEnumerable<UserInfoAccessLevel> userInfoAccessLevelLists = blUserInfoAccessLevel.GetUserInfoAccessLevels();
+    DropDownListUserInfoAccessLevelID.DataSource = userInfoAccessLevelLists;
+    DropDownListUserInfoAccessLevelID.DataValueField = "UserInfoAccessLevelID";
+    DropDownListUserInfoAccessLevelID.DataTextField = "UserInfoAccessLevelName";
+    DropDownListUserInfoAccessLevelID.DataBind();
+
+    }
+    catch (Exception exception)
+    {
+    Log4ExceptionConnDb.Ex(exception);
+    DisplayAlert("Unable to save changes. Try again, and if the problem persists see your system administrator.");
+
+    }
+    }
+
+    //Create
+
+    //Page_Load
+
+    if (!IsPostBack){
+    BindUserInfo();
+    }
+
+    //Submit_Create
+    int userInfoAccessLevelID;
+    bool successUserInfoAccessLevelID = int.TryParse(DropDownListUserInfoAccessLevelID.SelectedValue, out userInfoAccessLevelID);
+    if (!successUserInfoAccessLevelID)
+    {
+    userInfoAccessLevelID = 0;
+    }
+
+
+    //Edit
+
+    //Page_Load
+
+    if (!IsPostBack){
+    DropDownListUserInfoAccessLevelID.SelectedValue = loadUserInfo.UserInfoAccessLevelID.ToString();
+    BindUserInfo();
+    }
+
+    //Submit_Edit
+
+    int userInfoAccessLevelID;
+    bool successUserInfoAccessLevelID = int.TryParse(DropDownListUserInfoAccessLevelID.SelectedValue, out userInfoAccessLevelID);
+    if (!successUserInfoAccessLevelID)
+    {
+    userInfoAccessLevelID = 0;
+    }
+
+    //***************
+    //Mvc
+    //***************
+
+    //DropDownListFor
+
+    <section class="row">
+    <div class="col-auto">
+    @Html.LabelFor(model => model.UserInfoAccessLevelID, htmlAttributes: new { @class = "form-label" }):
+    </div>
+    <div class="col-auto">
+    @Html.DropDownListFor(m => m.UserInfoAccessLevelID, new SelectList((IEnumerable)ViewData["userInfoAccessLevelLists"], "UserInfoAccessLevelID", "UserInfoAccessLevelName"), null, new { @class = "form-select" })
+    </div>
+    <div class="col-auto">
+    @Html.ValidationMessageFor(model => model.UserInfoAccessLevelID, "", new { @class = "text-danger" })
+    </div>
+    </section>
+    <section class="row">
+    <br />
+    </section>
+
+    //BindUserInfo
+
+    private void BindUserInfo()
+    {
+    try
+    {
+    IUserInfoAccessLevelBL blUserInfoAccessLevel = new AdminUserInfoAccessLevelBL(new AdminUserInfoAccessLevelXmlRepository());
+    IEnumerable<UserInfoAccessLevel> userInfoAccessLevelLists = blUserInfoAccessLevel.GetUserInfoAccessLevels();
+    ViewData["userInfoAccessLevelLists"] = userInfoAccessLevelLists;
+    }
+    catch (Exception exception)
+    {
+    Log4ExceptionConnDb.Ex(exception);
+    DisplayAlert("Unable to save changes. Try again, and if the problem persists see your system administrator.");
+
+    }
+    }
+
+
+  

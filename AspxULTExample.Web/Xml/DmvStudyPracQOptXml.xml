@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DmvStudyPracQOptXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  >
+  <DmvStudyPracQOptLists>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>1</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>1</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>You are on a one-way street and turning left onto another one-way street.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>2</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>1</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Traffic is stopped.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>3</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>1</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Between midnight and 6 a.m.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>4</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>1</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>No one is coming.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>5</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>2</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>6</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>2</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>7</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>3</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>stop until the light turns green.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>8</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>3</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Stop until the light changes to yellow.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>9</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>3</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Stop, then drive on carefully.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>10</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>3</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Follow the officer's direction.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>11</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>4</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>12</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>4</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>13</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>5</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>14</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>5</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>15</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>6</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>16</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>6</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>17</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>7</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>reduce your speed.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>18</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>7</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>stop, yield to oncoming traffic and pedestrians, and proceed when the way is clear.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>19</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>7</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>drive with caution.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>20</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>7</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>a fire engine or ambulance is ahead.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>21</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>8</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>22</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>8</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>23</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>9</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>100 feet before the intersection.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>24</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>9</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>50 feet before the stop line.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>25</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>9</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Two car lengths behind the vehicle in front of you.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>26</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>9</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>Before you reach the intersection, stop line, or crosswalk.</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>27</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>10</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>True</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>0</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+    <DmvStudyPracQOpt>
+      <DmvStudyPracQOptID>28</DmvStudyPracQOptID>
+      <DmvStudyPracQuestionID>10</DmvStudyPracQuestionID>
+      <DmvStudyPracQOptText>False</DmvStudyPracQOptText>
+      <DmvStudyPracQOptAnswerYesNo>1</DmvStudyPracQOptAnswerYesNo>
+      <DmvStudyPracQOptActiveYesNo>1</DmvStudyPracQOptActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.583</UpdateDate>
+    </DmvStudyPracQOpt>
+  </DmvStudyPracQOptLists>
+</DmvStudyPracQOptXml>

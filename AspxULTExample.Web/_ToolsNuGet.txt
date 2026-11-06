@@ -1,0 +1,229 @@
+
+    Solution: {0}
+    Project1: {0}.Web
+    - Folder:
+    * AdminInfos
+    * Content/bootstrap-icons.min.css
+    * Content/Site.css
+    * Content/fonts/bootstrap-icons.woff
+    * Content/fonts/bootstrap-icons.woff2
+    * Content/Signatures
+    * ErrorText
+    * HomeInfos
+    * Svg/google-drive.svg
+    * Xml
+    Project2: {0}.BL
+    Project3: {0}.Models - System.Web and System.ComponentModel.DataAnnotations
+    - Folder: * Interface
+    Project4: {0}.Repository - Dapper, System.Web and System.Configuration
+
+
+    //Repository
+    new ViewMovieRepository()
+
+    //Xml Repository
+    new ViewMovieXmlRepository()
+
+    //****************************************
+    //Error and Xml Error
+    //****************************************
+    Log4ExceptionConnDb.ExXml(exception);
+    ...
+    public enum LogErrorDatabaseEnum
+    {
+    All,
+    Sql,
+    Xml
+    }
+
+    public static void Ex(Exception ex)
+    {
+    ...
+    LogErrorDatabaseEnum logErrorDatabaseEnum = LogErrorDatabaseEnum.All;
+    ...
+
+    //****************************************
+
+    //****************************************
+    //SessionRedirect
+    //****************************************
+    string sessionName = "{0}_";
+
+    bool sessionBool = HttpContext.Current.Session != null && (int)HttpContext.Current.Session[sessionName + "UserInfoAccessLevelID"] != 0 && (bool)HttpContext.Current.Session[sessionName + "UserInfoActiveYesNo"];
+
+    if (!sessionBool)
+    {
+    Response.Redirect("AccessDenied.aspx", false);
+    }
+
+    OR
+
+    private string SessionName()
+    {{
+    string sessionName = "{6}_";
+    return sessionName;
+    }}
+
+    private bool SessionBool()
+    {{
+    bool sessionBool = HttpContext.Current.Session != null && (int)HttpContext.Current.Session[SessionName() + "UserInfoAccessLevelID"] != 0 && (bool)HttpContext.Current.Session[SessionName() + "UserInfoActiveYesNo"];
+    return sessionBool;
+    }}
+
+    private void SessionRedirect()
+    {{
+    if (!SessionBool())
+    {{
+    Response.Redirect("AccessDenied.aspx", false);
+    }}
+
+    }}
+
+
+    //****************************************
+
+    Telerik UI for ASP.NET MVC Controls - https://www.telerik.com/aspnet-mvc
+    Telerik UI for ASP.NET AJAX - https://www.telerik.com/products/aspnet-ajax.aspx
+
+    //Github
+    Dapper by Sam Saffron,Marc Gravell,Nick Craver - https://github.com/DapperLib/Dapper
+    bootstrap by The Bootstrap Authors, Twitter Inc. - https://getbootstrap.com/
+    jQuery by jQuery Foundation, Inc. - https://jquery.com/
+    jQuery.UI.Combined by jQuery UI Team - https://jqueryui.com/
+    jquery.datatables by Allan Jardine (www.sprymedia.co.uk) - https://datatables.net/
+    MailKit by Jeffrey Stedfast - https://mimekit.net/
+    MimeKit by Jeffrey Stedfast - https://mimekit.net/
+    TwoStepAuthentication.pdf
+    SmtpClientEmail.txt
+
+    //Other
+    Bootstrap Icons - https://icons.getbootstrap.com/ - https://github.com/twbs/icons/releases/download/v1.11.2/bootstrap-icons-1.11.2.zip
+
+    //MVC
+    BundleConfig - bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
+    "~/Scripts/jquery-{version}.js",
+    "~/Scripts/jquery-ui-{version}.js"));
+
+    bundles.Add(new StyleBundle("~/Content/css").Include(
+    "~/Content/bootstrap.css",
+    "~/Content/bootstrap-icons.min.css",
+    "~/Content/Site.css",
+    "~/Content/themes/base/jquery-ui.css",
+    "~/Content/DataTables/css/jquery.dataTables.css",
+    "~/Content/DataTables/css/dataTables.jqueryui.css"));
+
+    bundles.Add(new ScriptBundle("~/bundles/dataTables").Include(
+    "~/Scripts/DataTables/jquery.dataTables.min.js",
+    "~/Scripts/DataTables/dataTables.jqueryui.min.js"));
+
+    //Scripts - @Scripts.Render("~/bundles/dataTables")
+
+    //Content/Font
+    bootstrap-icons.woff
+    bootstrap-icons.woff2
+
+    //Aspx
+    Bundle.config - <?xml version="1.0" encoding="utf-8" ?>
+    <bundles version="1.0">
+    <styleBundle path="~/Content/css">
+    <include path="~/Content/bootstrap.css" />
+    <include path="~/Content/bootstrap-icons.min.css" />
+    <include path="~/Content/Site.css" />
+    <include path="~/Content/themes/base/jquery-ui.css" />
+    <include path="~/Content/DataTables/css/jquery.dataTables.css" />
+    <include path="~/Content/DataTables/css/dataTables.jqueryui.css" />
+    </styleBundle>
+    </bundles>
+
+    // script - <script src="/Scripts/DataTables/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="/Scripts/DataTables/dataTables.jqueryui.js" type="text/javascript"></script>
+
+    //Content/Font
+    bootstrap-icons.woff
+    bootstrap-icons.woff2
+
+    //Content/Signatures
+    ~\Content\Signatures\{0}.jpg
+
+    //Sql Views
+    CREATE OR ALTER VIEW [dbo].[View????]
+    WITH SCHEMABINDING
+    AS
+
+    *************************************************************************
+
+    //ViewData
+    IList<Student> studentList = new List<Student>();
+    studentList.Add(new Student(){ StudentName = "Bill" });
+    studentList.Add(new Student(){ StudentName = "Steve" });
+    studentList.Add(new Student(){ StudentName = "Ram" });
+
+    ViewData["students"] = studentList;
+
+    Html.DropDownListFor()
+    @Html.DropDownListFor(m => m.StudentGender, new SelectList(ViewData["students"]), null , new { @class = "form-select" })
+
+    Html.RadioButtonFor()
+    @Html.RadioButtonFor(m => m.Gender,"No")
+    @Html.RadioButtonFor(m => m.Gender,"Yes")
+
+
+    <textarea rows="2" cols="20" id="TextArea1"
+    runat="server"/>
+
+    //DropDownList
+    <asp:DropDownList id="ColorList"
+    AutoPostBack="True"
+    OnSelectedIndexChanged="Selection_Change"
+    CssClass="form-select"
+    runat="server">
+
+    <asp:ListItem Selected="True" Value="White"> White </asp:ListItem>
+    <asp:ListItem Value="Silver"> Silver </asp:ListItem>
+    <asp:ListItem Value="DarkGray"> Dark Gray </asp:ListItem>
+    <asp:ListItem Value="Khaki"> Khaki </asp:ListItem>
+    <asp:ListItem Value="DarkKhaki"> Dark Khaki </asp:ListItem>
+
+    </asp:DropDownList>
+
+    List<Database> databases = databaseTableColumn.GetDatabases();
+    DropDownListDatabases.DataSource = databases;
+    DropDownListDatabases.DataBind();
+
+    <asp:DropDownList ID="DropDownListUserInfoAccessLevelID" CssClass="form-select" runat="server"/>
+    if (ResultGridView.EditIndex == e.Row.RowIndex)
+    {
+    DropDownList DropDownListUserInfoAccessLevelID = (DropDownList)e.Row.FindControl("DropDownListUserInfoAccessLevelID");
+
+    if (DropDownListUserInfoAccessLevelID != null)
+    {
+    DropDownListUserInfoAccessLevelID.DataSource = userInfoAccessLevelBl.GetUserInfoAccessLevels();
+    DropDownListUserInfoAccessLevelID.DataTextField = "UserInfoAccessLevelName";
+    DropDownListUserInfoAccessLevelID.DataValueField = "UserInfoAccessLevelID";
+    DropDownListUserInfoAccessLevelID.DataBind();
+    DropDownListUserInfoAccessLevelID.Items.Insert(0, new ListItem(" "));
+    string userInfoAccessLevelID = DataBinder.Eval(e.Row.DataItem, "UserInfoAccessLevelID").ToString();
+    DropDownListUserInfoAccessLevelID.Items.FindByValue(userInfoAccessLevelID).Selected = true;
+
+    }
+    }
+
+    //RadioButton
+    <asp:RadioButton id="rbYes" runat="server" GroupName="measurementSystem"></asp:RadioButton>
+    <asp:RadioButton id="rbNo" runat="server" GroupName="measurementSystem"></asp:RadioButton>
+
+    bool boolYesNo = rbYes.Checked
+
+    var applicationSettings = ConfigurationManager.GetSection("appSettings") as NameValueCollection;
+    if (applicationSettings.Count == 0)
+    {
+    Console.WriteLine("Application Settings are not defined");
+    }
+    else
+    {
+    foreach (var key in applicationSettings.AllKeys)
+    {
+    Console.WriteLine(key + " = " + applicationSettings[key]);
+    }
+    }
+  

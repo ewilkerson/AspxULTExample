@@ -1,0 +1,47 @@
+
+    //****************************
+    //LoadUserInfo
+    //****************************
+
+    private string _userInfoAccessLevelName;
+    /// <summary>
+    ///UserInfoAccessLevelName
+    /// </summary>
+
+    [DisplayName("User Info Access Level Name")]
+    [DataType(DataType.Text)]
+    [StringLength(50, MinimumLength = 1, ErrorMessage = "User Info Access Level Name cannot be null or empty or only have white space or 50 characters maximum.")]
+    public string UserInfoAccessLevelName
+    {
+    get { return _userInfoAccessLevelName; }
+    set { _userInfoAccessLevelName = value; }
+    }
+
+    private int _userInfoCompanyID;
+    /// <summary>
+    ///UserInfoCompanyID
+    /// </summary>
+    [DisplayName("User Info Company ID")]
+    [Range(1, int.MaxValue, ErrorMessage="User Info Company ID cannot be zero.")]
+    [DisplayFormat(DataFormatString = "{0:d}")]
+    public int UserInfoCompanyID {
+    get {return _userInfoCompanyID;}
+    set{ _userInfoCompanyID = value;}
+    }
+
+    //****************************
+    //UserInfoUserInfoCompanyXref
+    //****************************
+
+    private string _userInfoCompanyName;
+    /// <summary>
+    ///UserInfoCompanyName
+    /// </summary>
+    [DisplayName("User Info Company Name")]
+    [DataType(DataType.MultilineText)]
+    [StringLength(200, MinimumLength = 1, ErrorMessage="User Info Company Name cannot be null or empty or only have white space or 200 characters maximum.")]
+    public string UserInfoCompanyName {
+    get {return _userInfoCompanyName;}
+    set{ _userInfoCompanyName = value;}
+    }
+  

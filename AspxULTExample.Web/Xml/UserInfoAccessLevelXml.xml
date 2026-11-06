@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserInfoAccessLevelXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <UserInfoAccessLevelLists>
+    <UserInfoAccessLevel>
+      <UserInfoAccessLevelID>1</UserInfoAccessLevelID>
+      <UserInfoAccessLevelName>Super Access Level Sr.</UserInfoAccessLevelName>
+      <UserInfoAccessLevelNum>999999999</UserInfoAccessLevelNum>
+      <UserInfoAccessLevelActiveYesNo>1</UserInfoAccessLevelActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoAccessLevel>
+    <UserInfoAccessLevel>
+      <UserInfoAccessLevelID>2</UserInfoAccessLevelID>
+      <UserInfoAccessLevelName>Super Access Level Jr.</UserInfoAccessLevelName>
+      <UserInfoAccessLevelNum>888888888</UserInfoAccessLevelNum>
+      <UserInfoAccessLevelActiveYesNo>1</UserInfoAccessLevelActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoAccessLevel>
+    <UserInfoAccessLevel>
+      <UserInfoAccessLevelID>3</UserInfoAccessLevelID>
+      <UserInfoAccessLevelName>Approve Access Level</UserInfoAccessLevelName>
+      <UserInfoAccessLevelNum>20</UserInfoAccessLevelNum>
+      <UserInfoAccessLevelActiveYesNo>1</UserInfoAccessLevelActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoAccessLevel>
+    <UserInfoAccessLevel>
+      <UserInfoAccessLevelID>4</UserInfoAccessLevelID>
+      <UserInfoAccessLevelName>Access Level</UserInfoAccessLevelName>
+      <UserInfoAccessLevelNum>10</UserInfoAccessLevelNum>
+      <UserInfoAccessLevelActiveYesNo>1</UserInfoAccessLevelActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-07</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-07</UpdateDate>
+    </UserInfoAccessLevel>
+  </UserInfoAccessLevelLists>
+</UserInfoAccessLevelXml>

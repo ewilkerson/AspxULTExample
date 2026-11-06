@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExampleLogXml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExampleLogLists>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:02:01.728896-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:02:01.728896-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>2</ExampleLogID>
+      <ExampleID>1</ExampleID>
+      <LogMessage>Created</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:02:09.800386-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:02:09.800386-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>3</ExampleLogID>
+      <ExampleID>1</ExampleID>
+      <LogMessage>Signed</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:02:25.5118609-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:02:25.5118609-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>4</ExampleLogID>
+      <ExampleID>1</ExampleID>
+      <LogMessage>Approved</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:02:40.2565518-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:02:40.2565518-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>5</ExampleLogID>
+      <ExampleID>1</ExampleID>
+      <LogMessage>Rejected</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:01:31.2413599-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:01:31.2413599-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>1</ExampleLogID>
+      <ExampleID>2</ExampleID>
+      <LogMessage>Created</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:03:16.6803885-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:03:16.6803885-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>6</ExampleLogID>
+      <ExampleID>2</ExampleID>
+      <LogMessage>Signed</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:03:36.6776438-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:03:36.6776438-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>7</ExampleLogID>
+      <ExampleID>2</ExampleID>
+      <LogMessage>Approved</LogMessage>
+    </ExampleLog>
+    <ExampleLog>
+      <CreateDate>2025-04-29T21:03:48.4708795-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:03:48.4708795-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleLogID>8</ExampleLogID>
+      <ExampleID>2</ExampleID>
+      <LogMessage>Rejected</LogMessage>
+    </ExampleLog>
+  </ExampleLogLists>
+</ExampleLogXml>

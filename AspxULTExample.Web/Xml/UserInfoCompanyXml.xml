@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UserInfoCompanyXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <UserInfoCompanyLists>
+    <UserInfoCompany>
+      <UserInfoCompanyID>1</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-1</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf Tabacos Ltda.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Rodovia BR 471–KM 129,800</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Caixa Postal 1025</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>96835-642 Santa Cruz do Sul, Rio Grande do Sul, Brazil</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+55 51) 3719 8300</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>1</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>2</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-2</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Ermor Tabarama Tabacos do Brasil Ltda.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Av. Santos Dumont 1883 - Centro</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Edifício Aero Empresarial - Sala 930</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>42702-400 Lauro de Freitas, Bahia, Brazil</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+55) 71 3025 4708</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>1</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>3</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-3</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Socotab Bulgaria EOOD</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>4202 Radinovo</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Plovdiv District</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Bulgaria</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+359 32) 904 140</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>2</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>4</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-4</UserInfoCompanyEIN>
+      <UserInfoCompanyName>INETAB-KAUBECK, SRL</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Altos de Virella</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Apartado Postal 800</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Santiago, Dominican Republic</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+1 809) 575 3251</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>3</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>5</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-5</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Tabacalera San Castillo Tabacastillo S.A.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Recinto Castillo, Parroquia Catarama, Hacienda San Castillo</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Canton Urdaneta</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Los Rios, Ecuador</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+593) 99 719 6431</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>4</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>6</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-6</UserInfoCompanyEIN>
+      <UserInfoCompanyName>DHT - Deutsch-Holländische Tabakgesellschaft mbH &amp;amp;amp; Co. KG</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>2. Industriestraße 6</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>68766 Hockenheim, Germany</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+49 0) 6205-379100</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>5</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>7</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-7</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Gebrüder Kulenkampff GmbH</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>PO Box 103869</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>28038 Bremen, Germany</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+49 421) 365 90</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>5</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>8</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-8</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Deutsch-Holländische Tabakgesellschaft mbH &amp;amp;amp; Co. KG</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>2. Industriestraße 6</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>68766 Hockenheim, Germany</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+49 0) 6205-379100</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>5</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>9</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-9</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Socotab EOOD Greek Branch</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Location Tria Pigadia</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>60 100 Katerini, Greece</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+30 2) 3510 49 970</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>6</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>10</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-10</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Casa Export, Limited</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>15 Calle 17 - 17, Zona 1</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Guatemala City, Guatemala 01001</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+1 502) 2490 7200</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>7</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>11</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-11</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf (Asia) Pte Ltd</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Block A 12/F Winbase Centre</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>208 Queen’s Road Central</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Hong Kong</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+852) 361 93821</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>8</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>12</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-12</UserInfoCompanyEIN>
+      <UserInfoCompanyName>ULT Hungary Limited (ULT Magyarorszàg Kft.)</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P.O. Box 146</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Kinizsi utca 6/A, H - 4400 Nyíregyháza, Hungary</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+36 30) 709 8216</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>9</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>13</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-13</UserInfoCompanyEIN>
+      <UserInfoCompanyName>ULT Support Services India Private Limited</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Door No 3-28-244/A</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Nalanda Nagar, 3rd Lane, Ring Road</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Guntur 522 006, Andhra Pradesh, South India</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+91 863) 226 5460</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>10</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>14</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-14</UserInfoCompanyEIN>
+      <UserInfoCompanyName>PT Tempu Rejo</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Jalan Panglima Besar Sudirman no. 110</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Kecamatan Pakusari</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Jember 68181, East Java, Indonesia</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+62 331) 336 933</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>11</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>15</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-15</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Deltafina S.r.l.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Via Monte delle Gioie 1/c</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>00199 Rome, Italy</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+39 06) 8530 3354</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>12</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>16</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-16</UserInfoCompanyEIN>
+      <UserInfoCompanyName>L'Agricola S.r.l.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Viale Europa 1/5</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>06080 Ospedalicchio di Bastia Umbra (Pg), Italy</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone></UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>12</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>17</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-17</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Limbe Leaf Tobacco Company Limited</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Plot no. 29/125-126</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Kanengo Industrial Sites</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Lilongwe 4, Lilongwe, Malawi</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+265 1) 710 355 / 100</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>13</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>18</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-18</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Tabacos Del Pacifico Norte, S.A. De C.V.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Predio Los Sauces S/N Int. 1</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Col. Los Sauces</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Tepic, Nayarit 63195, Mexico</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+52 311) 219 4872 / 75</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>14</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>19</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-19</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Moçambique Leaf Tobacco Limitada</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P.O. Box 633</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>50100 Tete, Mozambique</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+258 2) 522 7000</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>15</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>20</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-20</UserInfoCompanyEIN>
+      <UserInfoCompanyName>HTL-DHT</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Kanaaldijk Noord 123</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>5642 JA Eindhoven, The Netherlands</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+31 0 40) 281 0275</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>16</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>21</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-21</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Socotab DOOEL Bitola</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Village of Dragozhani</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>7000 Bitola</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>North Macedonia</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+389 47) 212 400</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>17</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>22</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-22</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Tabacalera San Fernando S.R.L.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Fernando de la Mora KM7</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Avda Mcal Estigarribia 315</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Casilla de Correo 1020, Asuncion, Paraguay</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+595 21) 500 227</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>18</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>23</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-23</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf Tobacco Company, Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>No. 16 Guangshun South Avenue</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Wangjing Chao Yang District</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Beijing, China P.C. 100102</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+86 10) 6438 9661 /2 /3 /4</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>19</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>24</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-24</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf Philippines, Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Unit 2405 Discovery Centre</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>25 ADB Avenue, Ortigas Centre</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>1600 Pasig City, Philippines</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+63 2) 910-5050 / 1 / 2</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>20</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>25</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-25</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf Tobacco Poland Sp. z o.o.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>ul. Przemyslowa 20</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>28-300 Jedrzejów</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Poland</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+48 41) 380 1100</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>21</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>26</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-26</UserInfoCompanyEIN>
+      <UserInfoCompanyName>CJSC "Universal Tabak"</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>57-A Vavilova str., 3rd floor</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>(+7 495) 989 7639</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Moscow 117292, The Russian Federation</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone></UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>22</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>27</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-27</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf (Asia) Pte Ltd</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>240 MacPherson Road</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>#02-04 Pines Industrial Building</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Singapore 348574</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+65) 6324 7750</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>23</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>28</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-28</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf South Africa (Proprietary) Limited</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Postnet Suite # 414</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Private Bag X51, Bryanston 2021</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Johannesburg, South Africa</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+27 11) 361 2600</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>24</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>29</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-29</UserInfoCompanyEIN>
+      <UserInfoCompanyName>TAES S.L.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>C/.Ronda Sur , n° 50 - Local 4</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Apartado 91</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>10300 Navalmoral de la Mata (Cáceres), Spain</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+34 927) 533 794</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>25</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>30</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-30</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Socotab Frana S.A.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>82 rue de Lausanne</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>1202 Geneva</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Switzerland</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+41 22) 908 3500</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>26</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>31</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-31</UserInfoCompanyEIN>
+      <UserInfoCompanyName>ULTOCO S.A.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>82 rue de Lausanne</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>1202 Geneva</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Switzerland</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+41 22) 319 7188</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>26</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>32</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-33</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Continental Tobacco S.A.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>82 rue de Lausanne</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>1202 Geneva</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Switzerland</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+41 22) 319 7188</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>26</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>33</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-34</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Socotab Yaprak Tütün Sanayi ve Ticaret a.s.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>Mustafa Kemal Atatürk Mahallesi</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>Ulucak Izmir Caddesi No. 87</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>35735 Kemalpasa, Izmir, Türkiye</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+90 232) 877 0255</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>27</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>34</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-35</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf Tobacco Company, Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P.O. Box 25099</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>(+ 1 804) 359 9311</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Richmond, Virginia 23260, United States</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone></UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>35</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-36</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Universal Leaf North America U.S., Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P.O. Box 519</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Nashville, North Carolina 27856 USA</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+1 252) 462-4500</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>36</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-37</UserInfoCompanyEIN>
+      <UserInfoCompanyName>J. P. Taylor Company, L.L.C.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P.O. Box 246</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Oxford, NC 27565 USA</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+1 919) 693 1116</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>37</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-38</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Lancaster Leaf Tobacco Company of Pennsylvania, Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>PO Box 897</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Lancaster, Pennsylvania 17608-0897, United States</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+1 717) 394 2676</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>38</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-39</UserInfoCompanyEIN>
+      <UserInfoCompanyName>AmeriNic, Inc.</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P. O. Box 25099</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2></UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Richmond, Virginia 23260 USA</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(804) 254 1355</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>28</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+    <UserInfoCompany>
+      <UserInfoCompanyID>39</UserInfoCompanyID>
+      <UserInfoCompanyEIN>54-40</UserInfoCompanyEIN>
+      <UserInfoCompanyName>Zimbabwe Leaf Tobacco Company (Private) Limited</UserInfoCompanyName>
+      <UserInfoCompanyAddress1>P. O. Box 1597</UserInfoCompanyAddress1>
+      <UserInfoCompanyAddress2>1 Foundry Road, Aspindale Park</UserInfoCompanyAddress2>
+      <UserInfoCompanyCityStateZip>Harare, Zimbabwe</UserInfoCompanyCityStateZip>
+      <UserInfoCompanyTelephone>(+263 242) 621821-35 / 621811-9</UserInfoCompanyTelephone>
+      <UserInfoCompanyEmailAddress>info@universalleaf.com</UserInfoCompanyEmailAddress>
+      <UserCompanyWebsiteAddress>https://www.universalcorp.com/</UserCompanyWebsiteAddress>
+      <UserInfoCountriesID>29</UserInfoCountriesID>
+      <UserInfoCompanyActiveYesNo>1</UserInfoCompanyActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-01-12T16:40:05.133</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-01-12T16:40:05.157</UpdateDate>
+    </UserInfoCompany>
+  </UserInfoCompanyLists>
+</UserInfoCompanyXml>

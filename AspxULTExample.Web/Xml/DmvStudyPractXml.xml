@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DmvStudyPractXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  >
+  <DmvStudyPractLists>
+    <DmvStudyPract>
+      <DmvStudyPractID>1</DmvStudyPractID>
+      <DmvStudyPractNum>2</DmvStudyPractNum>
+      <DmvStudyPractTitle>Signals, Signs and Pavement Markings</DmvStudyPractTitle>
+      <DmvStudyPractActiveYesNo>1</DmvStudyPractActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.580</UpdateDate>
+    </DmvStudyPract>
+    <DmvStudyPract>
+      <DmvStudyPractID>2</DmvStudyPractID>
+      <DmvStudyPractNum>3</DmvStudyPractNum>
+      <DmvStudyPractTitle>Safe Driving</DmvStudyPractTitle>
+      <DmvStudyPractActiveYesNo>1</DmvStudyPractActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.580</UpdateDate>
+    </DmvStudyPract>
+    <DmvStudyPract>
+      <DmvStudyPractID>3</DmvStudyPractID>
+      <DmvStudyPractNum>4</DmvStudyPractNum>
+      <DmvStudyPractTitle>Seat Belts, Airbags and Child Safety Seats</DmvStudyPractTitle>
+      <DmvStudyPractActiveYesNo>1</DmvStudyPractActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.580</UpdateDate>
+    </DmvStudyPract>
+    <DmvStudyPract>
+      <DmvStudyPractID>4</DmvStudyPractID>
+      <DmvStudyPractNum>5</DmvStudyPractNum>
+      <DmvStudyPractTitle>Penalties</DmvStudyPractTitle>
+      <DmvStudyPractActiveYesNo>1</DmvStudyPractActiveYesNo>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <CreateDate>2025-12-16T21:30:55.580</CreateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <UpdateDate>2025-12-16T21:30:55.580</UpdateDate>
+    </DmvStudyPract>
+  </DmvStudyPractLists>
+</DmvStudyPractXml>

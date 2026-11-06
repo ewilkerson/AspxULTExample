@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExampleXml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExampleLists>
+    <Example>
+      <CreateDate>2025-02-13T17:46:02.253</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:02:40.2444018-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleID>1</ExampleID>
+      <ExampleUserInfoStatusID>10</ExampleUserInfoStatusID>
+      <ExampleUserInfoCompanyID>34</ExampleUserInfoCompanyID>
+      <Title>a</Title>
+      <Release>1</Release>
+      <ReleaseDateTime>2025-01-01T01:00:00</ReleaseDateTime>
+      <Genre>S</Genre>
+      <Price>2.03</Price>
+      <PriceYesNo>true</PriceYesNo>
+      <ReleaseDate>2025-01-01T00:00:00</ReleaseDate>
+      <ReleaseTime>PT2H30M</ReleaseTime>
+      <Message>awe</Message>
+      <Message2>vgt</Message2>
+      <PhoneNumber>804-222-4012</PhoneNumber>
+      <EmailAddress>ewilkerson@gmail.com</EmailAddress>
+      <CreditCard>4949494949494949</CreditCard>
+      <Password>Honn3ur@89921</Password>
+      <Url>https://www.google.com</Url>
+      <ExampleActiveYesNo>true</ExampleActiveYesNo>
+    </Example>
+    <Example>
+      <CreateDate>2025-04-29T21:01:31.2310083-04:00</CreateDate>
+      <CreateUserName>EARLWILKERSONJR\earlw</CreateUserName>
+      <CreateFullName>Earl L. Wilkerson Jr.</CreateFullName>
+      <UpdateDate>2025-04-29T21:03:48.4580297-04:00</UpdateDate>
+      <UpdateUserName>EARLWILKERSONJR\earlw</UpdateUserName>
+      <UpdateFullName>Earl L. Wilkerson Jr.</UpdateFullName>
+      <ExampleID>2</ExampleID>
+      <ExampleUserInfoStatusID>10</ExampleUserInfoStatusID>
+      <ExampleUserInfoCompanyID>1</ExampleUserInfoCompanyID>
+      <Title>erfefvef</Title>
+      <Release>2</Release>
+      <ReleaseDateTime>2025-01-01T03:00:00</ReleaseDateTime>
+      <Genre>A</Genre>
+      <Price>3.5</Price>
+      <PriceYesNo>true</PriceYesNo>
+      <ReleaseDate>2025-01-01T00:00:00</ReleaseDate>
+      <ReleaseTime>PT5H</ReleaseTime>
+      <Message>wfefef</Message>
+      <Message2>ooooo</Message2>
+      <PhoneNumber>804-222-2014</PhoneNumber>
+      <EmailAddress>qw@gmail.com</EmailAddress>
+      <CreditCard>4949494949494949</CreditCard>
+      <Password>Addddd3@89921</Password>
+      <Url>https://www.google.com</Url>
+      <ExampleActiveYesNo>true</ExampleActiveYesNo>
+    </Example>
+  </ExampleLists>
+</ExampleXml>
